@@ -1,0 +1,288 @@
+{
+ "project": "Warehouse monitoring synthetic dataset",
+ "seed": 20261022,
+ "scale": "full",
+ "generator_command": "python run_all.py --seed 20261022 --scale full",
+ "external_data": "none. All data is synthetic. No public data set was downloaded or redistributed.",
+ "python": "3.10.11",
+ "pandas": "2.3.3",
+ "numpy": "2.2.6",
+ "files": [
+  {
+   "file": "data/alarm.csv",
+   "rows": 7,
+   "bytes": 1023,
+   "sha256": "08f32c3523be1a38a304f6ae0126e547ae4ce99f00ee6cba59a409cc8283ddde"
+  },
+  {
+   "file": "data/alarm_affected_lot.csv",
+   "rows": 299,
+   "bytes": 26405,
+   "sha256": "6aebe400cf58ce3a3129775ac7515137f4c60753b000055c30ec57c9f00ba982"
+  },
+  {
+   "file": "data/alarm_status_history.csv",
+   "rows": 24,
+   "bytes": 1789,
+   "sha256": "f251e041e8d26031e2ce4c7e10ea2f460601081be12f9856e141a393e0c2c271"
+  },
+  {
+   "file": "data/door_event.csv",
+   "rows": 9361,
+   "bytes": 786407,
+   "sha256": "657f5ac64b1363a625ec36b4be022dc9843dbe12c1a1ae4544ed11a7bd4e0c99"
+  },
+  {
+   "file": "data/inspection.csv",
+   "rows": 74,
+   "bytes": 9864,
+   "sha256": "6431290e7e443ff5d45de363ba5c6e58ad3e8a3f5c5d63a4d46737e5f50bb881"
+  },
+  {
+   "file": "data/inventory_lot.csv",
+   "rows": 10000,
+   "bytes": 862602,
+   "sha256": "7b8db1cfe58b34f01c612c64cb87f913a53250a5e4f7a11b173355a153a6f881"
+  },
+  {
+   "file": "data/lot_zone_assignment.csv",
+   "rows": 10000,
+   "bytes": 965332,
+   "sha256": "35ddbe2326c33b5ce5e5895470e67072e4a85c9af043f3e55a434b9b61dc4925"
+  },
+  {
+   "file": "data/remediation.csv",
+   "rows": 74,
+   "bytes": 8217,
+   "sha256": "364e49d3fb9d2e826e21e1e8df83fe4cc07c291b68941c259192f8d22d940f7e"
+  },
+  {
+   "file": "data/sensor.csv",
+   "rows": 500,
+   "bytes": 29886,
+   "sha256": "34a78629b58e0b26c596fdd4463b840c68acff544f292a72386aa355216d1024"
+  },
+  {
+   "file": "data/sensor_gap.csv",
+   "rows": 3,
+   "bytes": 326,
+   "sha256": "a1b6aace7974a1951a1a2f854611668eb0a4cfc56d2aec138e31751a042eed23"
+  },
+  {
+   "file": "data/sensor_reading.csv",
+   "rows": 999970,
+   "bytes": 108647623,
+   "sha256": "734de44002ee775da9fa24e29355db13994ed45a3a5fd9ddc4bc57038358ce55"
+  },
+  {
+   "file": "data/sensor_zone_map.csv",
+   "rows": 501,
+   "bytes": 38440,
+   "sha256": "8d1f6ee59c9628532761791121246e91cde583b0afb4260716c7f18c576c21b6"
+  },
+  {
+   "file": "data/storage_requirement.csv",
+   "rows": 8,
+   "bytes": 591,
+   "sha256": "9a1ec585c51d6ea9695787e60e4ff42593a46268a7b5e8cdf3ffb5a193f938af"
+  },
+  {
+   "file": "data/warehouse.csv",
+   "rows": 10,
+   "bytes": 641,
+   "sha256": "f4bd10939b17dab6cc52fc7bb4d18eb8f00c1065c1aca561a4263b8c5d6be6e6"
+  },
+  {
+   "file": "data/zone.csv",
+   "rows": 100,
+   "bytes": 8047,
+   "sha256": "9ec98203e7edfb8563330f2012625b3f8a9051d14a4c5bdbeb2be5ae67e10c7b"
+  },
+  {
+   "file": "ground_truth/fault_ground_truth.csv",
+   "rows": 11,
+   "bytes": 2432,
+   "sha256": "cdd1517b17c63337c362f84f6730041281cb26af04ad97f5be3d5a0ea34dfa71"
+  },
+  {
+   "file": "ground_truth/fault_ground_truth_lots.csv",
+   "rows": 31,
+   "bytes": 1439,
+   "sha256": "16d7ebdbfa2fc8283464d99fe6f1f1b6864e628cdd6e6e5769a0b84b9ec74b9b"
+  },
+  {
+   "file": "reports/alarm_lot_link_reconciliation.csv",
+   "rows": 31,
+   "bytes": 1672,
+   "sha256": "4536a4a0ddb7bc271526c3249ea7f3292252b6d141e7f392300431abb08395d7"
+  },
+  {
+   "file": "reports/alarm_lot_linkage_details.csv",
+   "rows": 7,
+   "bytes": 525,
+   "sha256": "e7bedf29af57ec71dd1fa64d912749629a15613dea9617539b8a95a5829524bc"
+  },
+  {
+   "file": "reports/detected_issues.csv",
+   "rows": 4,
+   "bytes": 735,
+   "sha256": "655a3863b2c12db660720a195d03e0e9e1d996f2e068eef11bd7725977c566a5"
+  },
+  {
+   "file": "reports/evaluation_metrics.csv",
+   "rows": 3,
+   "bytes": 277,
+   "sha256": "a3ebe991c68af6820f7c2a45024598fa786e3877a0b521f0078bd2d7ab011a37"
+  },
+  {
+   "file": "reports/evaluation_report.md",
+   "rows": "",
+   "bytes": 3159,
+   "sha256": "f1c4569d69aafa895b356700aa7ffc01c7d06d5c349317b64054e1d8d22c50eb"
+  },
+  {
+   "file": "reports/independent_lot_exposure_results.csv",
+   "rows": 330,
+   "bytes": 77377,
+   "sha256": "59a3d0718580aa53b9b7d56e5efdefd2355b6c12bd39d48b53ee66b803240e1d"
+  },
+  {
+   "file": "reports/independent_lot_exposure_summary.csv",
+   "rows": 10,
+   "bytes": 285,
+   "sha256": "64974149f779361acb2ce0b003cf6c47ab6b4cb4a8a9784c8d6e8b143a1ca8a3"
+  },
+  {
+   "file": "reports/lot_linkage_summary.csv",
+   "rows": 1,
+   "bytes": 314,
+   "sha256": "24b14efe5e166f0023b6a080457328f5f17fb3a877d017d389f9ad4fd592f92b"
+  },
+  {
+   "file": "reports/scenario_detection_results.csv",
+   "rows": 11,
+   "bytes": 1711,
+   "sha256": "1f4b7e046597319b399a054025aeece0c935fdf3b92263dc261271fe3c2ed818"
+  },
+  {
+   "file": "reports/validation_report.md",
+   "rows": "",
+   "bytes": 10832,
+   "sha256": "b0d935ec37523742bff11e090423f6f108e29df76e5e102ba46d243bc14ca835"
+  },
+  {
+   "file": "json/alarm.json",
+   "rows": "",
+   "bytes": 2164,
+   "sha256": "8ecd86e66d023daeb3df40376f498e7216c0e69846e3d40b1a63b0db6cc94947"
+  },
+  {
+   "file": "json/alarm_affected_lot.json",
+   "rows": "",
+   "bytes": 66680,
+   "sha256": "c23ab9b96657ecc5661d02800062e36d9280bb647025fcdee18b0a10340a193d"
+  },
+  {
+   "file": "json/alarm_status_history.json",
+   "rows": "",
+   "bytes": 4544,
+   "sha256": "eff9d6e0f8c8a7e7cef4cc17c0b5e308066da2373005921f5998caea2a77ff01"
+  },
+  {
+   "file": "json/door_event.json",
+   "rows": "",
+   "bytes": 2001490,
+   "sha256": "3c4ec2483b8598fcdbcb7c1a827bd21c8193939970add74ee0bbf4bd34e3d53f"
+  },
+  {
+   "file": "json/ground_truth/fault_ground_truth.json",
+   "rows": "",
+   "bytes": 4245,
+   "sha256": "5621201b9189865d79f658ff6c6dd92d4458bf0b429b8f3a09543728610ea897"
+  },
+  {
+   "file": "json/ground_truth/fault_ground_truth_lots.json",
+   "rows": "",
+   "bytes": 3660,
+   "sha256": "bd26da86f512d79974bc1ac29e92ec313220c312a8b94b2a570840ed36ca8cdb"
+  },
+  {
+   "file": "json/inspection.json",
+   "rows": "",
+   "bytes": 19119,
+   "sha256": "6d2a9e9fe8b27f4ef920bfc6439beeacacaa8ea16c33420c2df95194a52dff53"
+  },
+  {
+   "file": "json/inventory_lot.json",
+   "rows": "",
+   "bytes": 2309188,
+   "sha256": "542cbfb3170efce7df5d16587018f8628c10b235eeef5f654eb945994e742550"
+  },
+  {
+   "file": "json/lot_zone_assignment.json",
+   "rows": "",
+   "bytes": 2273308,
+   "sha256": "4ec6c73ce3c3d68d628acaf58324a2b6181520f0fba394dceb4c4e22f1708b1b"
+  },
+  {
+   "file": "json/remediation.json",
+   "rows": "",
+   "bytes": 20529,
+   "sha256": "8e0901baab449ea4c0f7283fd1fad45cce62a91528ea1aea428dd537c145aa8b"
+  },
+  {
+   "file": "json/sensor.json",
+   "rows": "",
+   "bytes": 100302,
+   "sha256": "cb1800606fa9f675e1bedf63ee527a5e3c5f9682441623db7c0213fecbf37880"
+  },
+  {
+   "file": "json/sensor_gap.json",
+   "rows": "",
+   "bytes": 580,
+   "sha256": "56cc0e24923cb0e78da80cb59577dcfd78a03f8c5ef8d37de91abc417c71968c"
+  },
+  {
+   "file": "json/sensor_reading.json",
+   "rows": "",
+   "bytes": 196320295,
+   "sha256": "f821a4e0ea84e803bf25c55b6a3d04b790b5275d1a110cbe9c5f0c242c3f601a"
+  },
+  {
+   "file": "json/sensor_zone_map.json",
+   "rows": "",
+   "bytes": 95994,
+   "sha256": "d36a02d2995b80d744b3d675fad763b8c65398a5b42362cd3cbbdc87fde33b94"
+  },
+  {
+   "file": "json/storage_requirement.json",
+   "rows": "",
+   "bytes": 2304,
+   "sha256": "e8b7ece1c79cc5edb89a2bab2281591669caa6b7f9229732f19f8f94d6bb605a"
+  },
+  {
+   "file": "json/warehouse.json",
+   "rows": "",
+   "bytes": 1592,
+   "sha256": "a22e4885d7775dfa9a9ac7e8372c24b1c1a463953d8e3d13baeb4899c4934049"
+  },
+  {
+   "file": "json/zone.json",
+   "rows": "",
+   "bytes": 32183,
+   "sha256": "d114831662f08afdf1e7b2b7ca70a5967725662f43d49f639f096b08b9dced8b"
+  },
+  {
+   "file": "sql/schema.sql",
+   "rows": "",
+   "bytes": 4750,
+   "sha256": "462fef29d2cd2749df0a833b5ee37e156990e0e42225490609cb17f1fd901e8d"
+  },
+  {
+   "file": "sql/seed.sql",
+   "rows": "",
+   "bytes": 120388683,
+   "sha256": "9d8a679944f60175725683066aeccc500272212b314e5dcda9f5546375ea9b60"
+  }
+ ]
+}

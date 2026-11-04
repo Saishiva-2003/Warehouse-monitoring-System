@@ -1,0 +1,11 @@
+metric,value
+alarms_evaluated,7
+independent_expected_alarm_lot_pairs,330
+rule_engine_alarm_lot_pairs,299
+missing_rule_engine_links,31
+extra_rule_engine_links,0
+independent_breach_pairs,73
+unknown_pairs,44
+no_breach_pairs,103
+context_only_pairs,110
+ambiguous_mapping_pairs,0

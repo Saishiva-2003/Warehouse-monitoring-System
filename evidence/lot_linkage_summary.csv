@@ -1,0 +1,2 @@
+total_alarms,alarms_with_lots_in_zone,alarms_fully_linked,alarms_not_fully_linked,linkage_coverage_pct,expected_links,present_links,missing_links,links_without_basis,orphan_links,duplicate_alarm_lot_pairs,distinct_affected_lots,breach_links,missing_links_equal_planted
+7,7,6,1,85.7100,330,299,31,0,0,0,299,73,True

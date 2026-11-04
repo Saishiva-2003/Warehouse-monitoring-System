@@ -135,6 +135,8 @@ This command executes the complete warehouse monitoring pipeline.
 
 The full-scale execution generally takes approximately 30–50 seconds, depending on the system.
 
+**Configuration:** No configuration is needed. There are no API keys, environment variables or external services. The seed, dataset sizes and business limits are set in `config.py`.
+
 **Important:** The project uses the fixed seed `20261022`. The generator stops if a different seed is supplied.
 
 ### Step 5: Show the Total Warehouses, Zones, Sensors and Readings
@@ -298,7 +300,8 @@ Warehouse-monitoring-System/
 │
 ├── docs/
 │   ├── data_dictionary_and_er_diagram.md
-│   └── IMPLEMENTATION_NOTES.md
+│   ├── IMPLEMENTATION_NOTES.md
+│   └── REASONING.md
 │
 ├── evidence/
 │   └── Previous full-run reports
@@ -495,6 +498,7 @@ The following documents provide additional project information:
 - `AI_USE.md` – Explanation of how AI assistance was used.
 - `docs/data_dictionary_and_er_diagram.md` – Entity and attribute definitions and the ER diagram.
 - `docs/IMPLEMENTATION_NOTES.md` – Implementation deviations and known limitations.
+- `docs/REASONING.md` – Why the project is built this way: assumptions, decisions, trade-offs, testing and limitations.
 
 ---
 
